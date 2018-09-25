@@ -8,7 +8,7 @@ Please direct any questions/concerns to chronosv2 on the forums or on GitHub as 
 <h2 id="start">Table of Contents</h2>
 
 Each of the following Challenge Pages is from the end of one of the NESMaker 6502 Tutorial Videos I've published to YouTube.
-1. [Gaining Magic](stage1.markdown) presented in [NESMaker ASM Tutorial #$02 - Tearing down some scripts!](https://www.youtube.com/watch?v=gC5UI2k7nI8)
+1. **[Gaining Magic](stage1.markdown)** presented in [NESMaker ASM Tutorial #$02 - Tearing down some scripts!](https://www.youtube.com/watch?v=gC5UI2k7nI8)
 
 <h2 id="nesmaker">What's this about?</h2>
 This is a series of challenges I've designed for use with my Assembly Language Tutorials for the NESMaker community.
