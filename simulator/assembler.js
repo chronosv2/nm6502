@@ -2101,8 +2101,11 @@ function SimulatorWidget(node) {
     
       // Is it a hexadecimal operand?
       var match_data = param.match(/^\$([0-9a-f]{1,2})$/i);
+      var match_bin =  param.match(/^\%([0-1]{8})$/i);
       if (match_data) {
         value = parseInt(match_data[1], 16);
+      } else if (match_bin) {
+      	value = parseInt(match_bin[1], 2);
       } else {
         // Is it a decimal operand?
         match_data = param.match(/^([0-9]{1,3})$/i);
