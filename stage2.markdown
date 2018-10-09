@@ -13,14 +13,14 @@ Lastly, there will be code in the template that will attempt to overwrite your r
 Commands used in this challenge:  
 `LDA`, `STA`, `AND`, `ORA`, `EOR`, `JMP`
 
-Check the "Monitor" checkbox. In the "Start $" textbox enter the number 0100, and in the "Length $" textbox enter the number 3.
-Click **Assemble** then **Run** to get the answer 
+Check the "Monitor" checkbox. In the "Start $" textbox enter the number 0, and in the "Length $" textbox enter the number 3.
+Click **Assemble** then **Run** to get the answer, which should appear in the memory monitor.
 
 {% include start.html %}
 ;Define Memory Locations for memory use
-define AndLoc $0100
-define OrLoc $0101
-define XorLoc $0102
+define AndLoc $00
+define OrLoc $01
+define XorLoc $02
 
 ;Start
 ;Put your code here.

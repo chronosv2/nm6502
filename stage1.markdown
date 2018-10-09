@@ -13,11 +13,11 @@ Label is the label you wish to jump to. This is an unconditional jump. When it i
 Commands used in this challenge:  
 `LDA`, `STA`, `ADC`, `CLC`, `CMP`, `BCS`, `JMP`
 
-Check the "Monitor" checkbox. In the "Start $" textbox enter the number 0100, and in the "Length $" textbox enter the number 1.
-Click **Assemble** then **Run** to assemble and run your result, then keep clicking **Run** until you confirm this challenge is complete! The Monitor should show the number after `0100:` increase by $03 until it stops at $19 and increases no further with subsequent **Run** presses.
+Check the "Monitor" checkbox. In the "Start $" textbox enter the number 0, and in the "Length $" textbox enter the number 1.
+Click **Assemble** then **Run** to assemble and run your result, then keep clicking **Run** until you confirm this challenge is complete! The Monitor should show the number after `0000:` increase by $03 until it stops at $19 and increases no further with subsequent **Run** presses.
 
 {% include start.html %}
-define myMagic $0100
+define myMagic $00
 start:
 ;; Put your code here.
 ;; Replace these comments with the solution to the challenge!
